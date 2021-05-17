@@ -1,0 +1,16 @@
+form{
+
+    display: flex;
+    flex-direction:column;
+}
+
+button{
+
+    margin: 15px 5px 5px 0px;
+    
+}
+
+.buttoncancel{
+
+background-color: #00a6ff;
+}

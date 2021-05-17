@@ -1,0 +1,36 @@
+.header{
+
+    display: flex;
+    align-items: center;
+    height:92px;
+    background-color: #00a6ff;
+    
+}
+
+.header a{
+
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header img{
+   height:60px;
+    
+}
+
+.title-group{
+
+    padding-left: 25px;
+}
+
+.title-group i{ 
+
+    padding-right: 5px;
+
+}
+
+.title-group a {
+
+    color: rgb(255, 255, 255);
+}

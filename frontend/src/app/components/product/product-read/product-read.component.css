@@ -1,0 +1,41 @@
+table{
+
+    margin: 2px;
+    width: 100%;
+    
+}
+
+a .edit{
+
+    color:rgba(255, 204, 0, 0.968);
+
+}
+
+
+a .delete{
+
+    color:red;
+    margin-left: 8px;
+}
+
+
+
+td {
+width: 15px;
+margin-right:55px ;
+}
+
+th .obras{
+
+
+color: blue;
+margin-right: 23px;
+}
+
+th{
+
+  
+padding-left: 23px;
+}
+
+body{ background-color: red;}

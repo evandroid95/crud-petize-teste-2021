@@ -1,0 +1,38 @@
+<mat-card>
+    <mat-card-title>
+        Novo autor
+    </mat-card-title>
+
+<form>
+
+    <mat-form-field>
+
+        <input matInput placeholder="Nome do autor" [(ngModel)] = "product.nome" name="nome">
+    </mat-form-field>
+
+    <mat-form-field>
+    
+        <input matInput placeholder="Sobre o autor"  [(ngModel)] = "product.sobre" name="sobre">
+    </mat-form-field>
+
+       <mat-form-field>
+    
+        <input matInput placeholder="imagem"  [(ngModel)] = "product.img" name="img">
+    </mat-form-field>
+
+    <mat-form-field>
+    
+        <input matInput placeholder="Obras do autor" [(ngModel)]="product.titulo" name="titulo">
+    </mat-form-field>
+</form>
+
+<!-- <p>product-create works!</p> -->
+
+<button class="buttoncancel" mat-raised-button (click) = "createProduct()" color='primary'>
+Salvar
+</button>
+
+<button mat-raised-button (click)="cancel()" color='Accent'>
+   Cancelar
+</button>
+</mat-card>

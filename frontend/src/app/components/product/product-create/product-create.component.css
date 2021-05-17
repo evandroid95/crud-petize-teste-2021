@@ -1,0 +1,16 @@
+.buttoncancel{
+ background-color: #0088ff;
+ margin-right: 10px;
+}
+
+form{
+
+    display: flex;
+    flex-direction:column;
+}
+
+.mat-form-field .obras{
+
+margin-right: 25px;
+
+}
